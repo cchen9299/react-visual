@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Gamja+Flower&display=swap');
+
+body {
+    margin: 0;
+    background-color: #f9f9f9
+}
+
+p {
+    /* font-family: "Gamja Flower", Arial, Helvetica, sans-serif; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card {
+    background-color:white;
+}
+
+.card:hover {
+    background-color: rgb(255 255 255 / 0);
+    backdrop-filter: blur(10px);
+    height: 300px;
+    width: 300px;
+    border-radius: 0;
+    border: solid 1px white;
+}
+
+.card:hover * {
+    opacity: 1;
+}
+
+.card:hover .card {
+    opacity: 0
+}
